@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/utm"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Pago_Netflix"></activity>
+        <activity android:name=".Pago_Luz" />
+        <activity android:name=".Pago_Mensualidad" />
+        <activity android:name=".Pago_Extraordinario" />
+        <activity android:name=".Pago_Inscripcion" />
+        <activity
+            android:name=".Inicio_DrawMenu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".servicios_premium" />
+        <activity android:name=".servicios_basicos" />
+        <activity android:name=".presentacion.usuario.eliminar_perfil" />
+        <activity android:name=".editar_perfil" />
+        <activity android:name=".presentacion.cuenta.consulta_movimientos" />
+        <activity android:name=".Transferencia_Principal" />
+        <activity android:name=".Transferencia_InData" />
+        <activity android:name=".presentacion.cuenta.Transferencia_Confirmacion" />
+        <activity android:name=".presentacion.usuario.Registro" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

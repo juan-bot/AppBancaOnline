@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Perfil"/>
+    </group>
+
+    <item android:title="Configurar Cuenta">
+        <menu>
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@drawable/premium"
+                android:title="Asciende a Premium"/>
+            <item
+                android:id="@+id/nav_edit"
+                android:icon="@drawable/man"
+                android:title="Editar Cuenta"/>
+            <item
+                android:id="@+id/nav_delete"
+                android:icon="@drawable/cancel"
+                android:title="Eliminar Cuenta"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/close"
+                android:title="Cerrar sesion"/>
+        </menu>
+    </item>
+</menu>

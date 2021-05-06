@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202732"
+    tools:context=".servicios_basicos">
+
+    <Button
+        android:id="@+id/btn_mensualidad"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="54dp"
+        android:backgroundTint="#F44336"
+        android:text="Mensualidad"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/btn_inscripcion" />
+
+    <Button
+        android:id="@+id/btn_inscripcion"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="54dp"
+        android:backgroundTint="#F44336"
+        android:text="Inscripcion"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <Button
+        android:id="@+id/btn_extraordinario"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="54dp"
+        android:backgroundTint="#F44336"
+        android:text="Extraordinario"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mensualidad" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="107dp"
+        android:text="Advertencia!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#F44336"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_extraordinario" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="356dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="115dp"
+        android:text="Si deseas hacer pago de servicios extras ajenos a la institucion asegurese de ser usuario premium"
+        android:textAlignment="center"
+        android:textColor="#EEFDFDFD"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="89dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43"
+        app:srcCompat="@drawable/letter_i" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="89dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:srcCompat="@drawable/letter_m" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="89dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        app:srcCompat="@drawable/letter_e" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="#202732"
+        android:paddingLeft="45dp"
+        android:paddingTop="7dp"
+        android:text="PAGO DE SERVICIOS"
+        android:textColor="#F44336"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_atras"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:background="#202732"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202732"
+    tools:context=".servicios_premium">
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="95dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="44dp"
+        android:text="CFE"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_luz" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="119dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="40dp"
+        android:text="Extraordinario"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_extraordinario" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="120dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="44dp"
+        android:text="Servicios en linea"
+        android:textColor="#FFC107"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="119dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="44dp"
+        android:text="Mensualidad"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_mensualidad" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="107dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="44dp"
+        android:text="Netflix"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_netflix" />
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="160dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="14dp"
+        android:background="#F44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="160dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="14dp"
+        android:background="#F44336"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="160dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="14dp"
+        android:background="#F44336"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="160dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="14dp"
+        android:background="#F44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="2dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginEnd="28dp"
+        android:background="#F44336"
+        app:layout_constraintEnd_toStartOf="@+id/btn_luz"
+        app:layout_constraintStart_toEndOf="@+id/button10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="2dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="28dp"
+        android:background="#F44336"
+        app:layout_constraintEnd_toStartOf="@+id/btn_netflix"
+        app:layout_constraintStart_toEndOf="@+id/button_extraordinario"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_luz"
+        android:layout_width="119dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/idea"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view9"
+        app:layout_constraintTop_toBottomOf="@+id/view13" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="119dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/credit_card"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/view9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view12" />
+
+    <Button
+        android:id="@+id/btn_netflix"
+        android:layout_width="119dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/netflix"
+        android:paddingTop="40dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view8"
+        app:layout_constraintTop_toBottomOf="@+id/view10" />
+
+    <Button
+        android:id="@+id/button_mensualidad"
+        android:layout_width="119dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/letter_m"
+        android:paddingTop="40dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_extraordinario"
+        android:layout_width="119dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/letter_e"
+        android:paddingTop="40dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/view8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view11" />
+
+    <Button
+        android:id="@+id/button_inscripcion"
+        android:layout_width="119dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/letter_i"
+        android:paddingTop="40dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/view7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="2dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="28dp"
+        android:background="#F44336"
+        app:layout_constraintEnd_toStartOf="@+id/button_mensualidad"
+        app:layout_constraintStart_toEndOf="@+id/button_inscripcion"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="119dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="44dp"
+        android:text="Inscripciones"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_inscripcion" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="6dp"
+        android:text="Servicios Premium"
+        android:textColor="#F44336"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_atras"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:background="#202732"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

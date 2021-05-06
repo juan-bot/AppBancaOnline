@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "748833026272",
+    "firebase_url": "https://utmbank-stable.firebaseio.com",
+    "project_id": "utmbank-stable",
+    "storage_bucket": "utmbank-stable.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748833026272:android:27646145d61f7f9589a085",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748833026272-4t2idutqbiqsl16hvo60mqkn9hsts8v1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDamA0obW-26MX0-N_TwPKuSLlF6oDOWcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748833026272-4t2idutqbiqsl16hvo60mqkn9hsts8v1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
